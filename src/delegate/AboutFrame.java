@@ -7,7 +7,7 @@ public class AboutFrame extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private static final String text = "MozillaRecovery" + "\n\nVersion: 0.4"
-			+ "\n\nAuthor: Deque"
+			+ "\n\nAuthor: Katja Hahn"
 			+ "\n\nLast upate: 26. December 2012";
 
 	public AboutFrame() {
