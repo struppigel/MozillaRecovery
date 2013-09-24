@@ -1,8 +1,6 @@
-bin
-lib
 logs
 .classpath
 .project
 .settings
 wordlist.txt
-source/resource/logohc.xcf
+/target

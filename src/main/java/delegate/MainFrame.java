@@ -36,7 +36,7 @@ public class MainFrame extends JFrame implements ProgressDisplay {
 			.getLogger(MainFrame.class);
 	
 	private final static File DEFAULT_WORDLIST = new File("wordlist.txt");
-	private final static String TITLE_IMAGE = "/resource/title.gif";
+	private final static String TITLE_IMAGE = "/logohc.png";
 
 	private final JTextField key3Path = new JTextField(25);
 	private final JTextField wordlistPath = new JTextField(25);
@@ -59,7 +59,7 @@ public class MainFrame extends JFrame implements ProgressDisplay {
 	private CrackingTask task;
 
 	public MainFrame() {
-		super("MozillaRecovery 0.4");
+		super("MozillaRecovery 0.4.1");
 		initGUI();
 		initListener();
 	}

@@ -15,8 +15,9 @@ public class Starter {
 	private final static Logger logger = Logger.getLogger(Starter.class);
 
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("log4j.properties");
-		setLookAndFeel();
+		PropertyConfigurator.configure(Starter.class.getResourceAsStream("/log4j.properties"));
+		logger.debug("starting program");
+		setLookAndFeel2();
 		initMainFrame();
 	}
 
