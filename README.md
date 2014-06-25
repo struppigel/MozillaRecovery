@@ -3,7 +3,7 @@ MozillaRecovery
 
 Recovers the master password of key3.db files, i.e. Thunderbird, Firefox
 
-Delevelopment is discontinued for the moment. Have a look at this fork of MozillaRecovery, which is actively maintained:
+Delevelopment is discontinued for the moment. Have a look at this fork of MozillaRecovery:
 https://github.com/gtfy/MozillaRecovery
 
 ### Usage
