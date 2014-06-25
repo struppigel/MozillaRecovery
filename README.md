@@ -3,6 +3,9 @@ MozillaRecovery
 
 Recovers the master password of key3.db files, i.e. Thunderbird, Firefox
 
+Delevelopment is discontinued for the moment. Have a look at this fork of MozillaRecovery, which is actively maintained:
+https://github.com/gtfy/MozillaRecovery
+
 ### Usage
 
 Once you start the program, it searches automatically for default locations of your key3.db in Firefox and, if not found, in the Thunderbird application directory. I prepared and tested this for Windows 7 and Linux. You can change the location manually, of course. key3.db is the file that is used to recover the master password. You can start a wordlist attack on that. 
